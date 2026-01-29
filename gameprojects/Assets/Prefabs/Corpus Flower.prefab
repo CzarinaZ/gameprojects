@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7480974783903045675}
   - component: {fileID: 6634271401322141942}
   - component: {fileID: 1229686670748157205}
+  - component: {fileID: 849395494368297971}
   m_Layer: 0
   m_Name: Corpus Flower
   m_TagString: Untagged
@@ -184,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b301124910b0bf44a149a122adfd1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPathfinding
-  moveSpeed: 3
+  moveSpeed: 1
 --- !u!95 &6634271401322141942
 Animator:
   serializedVersion: 7
@@ -219,4 +220,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e47b56ddd530742a502dbd98682930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  startingHealth: 1
+  startingHealth: 3
+--- !u!114 &849395494368297971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275275273712863798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf6128e4306c2048a77daacb5ded865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Knockback
+  knockbackTime: 0.1
