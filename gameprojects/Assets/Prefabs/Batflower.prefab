@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7457612499613442454}
   - component: {fileID: 679686150845326331}
   - component: {fileID: 3217988207626116410}
+  - component: {fileID: 8360024682441694444}
   m_Layer: 0
   m_Name: Batflower
   m_TagString: Untagged
@@ -233,4 +234,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf6128e4306c2048a77daacb5ded865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knockback
-  knockbackTime: 0.1
+  knockbackTime: 0.2
+--- !u!114 &8360024682441694444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7613867574872810226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33828e57965a8a34fa580710b10b0a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flash
+  whiteFlashMat: {fileID: 2100000, guid: 20f1b5e86954cf64d9e573875bc77b60, type: 2}
+  restoreDefaultMatTime: 0.2
