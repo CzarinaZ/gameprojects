@@ -1815,6 +1815,9 @@ GameObject:
   - component: {fileID: 1715884020}
   - component: {fileID: 1715884021}
   - component: {fileID: 1715884022}
+  - component: {fileID: 1715884024}
+  - component: {fileID: 1715884023}
+  - component: {fileID: 1715884025}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2007,6 +2010,48 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &1715884023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715884015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf6128e4306c2048a77daacb5ded865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Knockback
+  knockbackTime: 0.2
+--- !u!114 &1715884024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715884015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33828e57965a8a34fa580710b10b0a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flash
+  whiteFlashMat: {fileID: 2100000, guid: 20f1b5e86954cf64d9e573875bc77b60, type: 2}
+  restoreDefaultMatTime: 0.2
+--- !u!114 &1715884025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715884015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c07aa200454a14eb0a26de0ddf5f57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 8
+  knockBackThrustAmount: 10
+  damageRecoveryTime: 1
 --- !u!4 &1738702210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1527747185936363034, guid: a71e86e39a8ef3948ab5d0199d204184, type: 3}
