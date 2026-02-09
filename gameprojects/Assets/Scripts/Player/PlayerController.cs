@@ -13,15 +13,17 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
+    private Knockback knockback;
 
     private bool facingLeft = false;
-    
+
     private void Awake() {
         Instance = this;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<Knockback>();
     }
 
     private void OnEnable() {
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Move() {
+        if (knockback.gettingKnockedBack) { return; }
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
 
