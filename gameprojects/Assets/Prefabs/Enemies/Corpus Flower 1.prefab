@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b301124910b0bf44a149a122adfd1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPathfinding
-  moveSpeed: 1
+  moveSpeed: 1.2
 --- !u!95 &3311007071316771870
 Animator:
   serializedVersion: 7
@@ -264,5 +264,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIChase
   player: {fileID: 0}
-  speed: 1
+  speed: 1.2
   distanceBetween: 4
