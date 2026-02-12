@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 679686150845326331}
   - component: {fileID: 3217988207626116410}
   - component: {fileID: 8360024682441694444}
+  - component: {fileID: 320128481280309795}
   m_Layer: 0
   m_Name: Batflower
   m_TagString: Untagged
@@ -250,3 +251,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Flash
   whiteFlashMat: {fileID: 2100000, guid: 20f1b5e86954cf64d9e573875bc77b60, type: 2}
   restoreDefaultMatTime: 0.2
+--- !u!114 &320128481280309795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7613867574872810226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7114d36dda1820544b5c2827de5d1fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AIChase
+  player: {fileID: 0}
+  speed: 2
+  distanceBetween: 6
