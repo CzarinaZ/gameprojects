@@ -405,11 +405,11 @@ GameObject:
   - component: {fileID: 7252965508628613044}
   - component: {fileID: 7658005100616594105}
   - component: {fileID: 8589069190230637598}
-  - component: {fileID: 3311007071316771870}
   - component: {fileID: 7922527707630762837}
   - component: {fileID: 4447574225373758188}
   - component: {fileID: 7628417545973859562}
   - component: {fileID: 3515730084947072117}
+  - component: {fileID: -1150590504166872688}
   m_Layer: 0
   m_Name: Corpus Flower 1
   m_TagString: Untagged
@@ -580,28 +580,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPathfinding
   moveSpeed: 1.2
---- !u!95 &3311007071316771870
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6237379959875220195}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7922527707630762837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,3 +637,25 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 1.2
   distanceBetween: 4
+--- !u!95 &-1150590504166872688
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6237379959875220195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e435d7ac166ff246b41e4dec3e43432, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
