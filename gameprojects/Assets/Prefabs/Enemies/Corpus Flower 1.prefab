@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 4447574225373758188}
   - component: {fileID: 7628417545973859562}
   - component: {fileID: 3515730084947072117}
-  - component: {fileID: -1150590504166872688}
+  - component: {fileID: 1133293083398422718}
   m_Layer: 0
   m_Name: Corpus Flower 1
   m_TagString: Untagged
@@ -637,7 +637,7 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 1.2
   distanceBetween: 4
---- !u!95 &-1150590504166872688
+--- !u!95 &1133293083398422718
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ Animator:
   m_GameObject: {fileID: 6237379959875220195}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e435d7ac166ff246b41e4dec3e43432, type: 2}
+  m_Controller: {fileID: 9100000, guid: c6421ed39182bd2478f600e27ffc4402, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
