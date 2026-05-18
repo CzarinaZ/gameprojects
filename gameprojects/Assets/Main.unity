@@ -1057,6 +1057,10 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6118045810358615491, guid: 99c62037548ba9244add25f95bf44095, type: 3}
+      propertyPath: moveSpeed
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7613867574872810226, guid: 99c62037548ba9244add25f95bf44095, type: 3}
       propertyPath: m_Name
       value: Batflower
